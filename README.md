@@ -35,6 +35,10 @@ npm i react react-dom
   "dev": "webpack serve"
 }
 ```
+### Run build
+```
+npm run build
+```
 
 ### Run dev
 ```
