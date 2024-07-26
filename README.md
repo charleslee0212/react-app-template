@@ -28,7 +28,7 @@ npm i html-webpack-plugin
 npm i react react-dom
 ```
 
-### Add script to package.json
+### Add scripts to package.json
 ```
 "scripts": {
   "build": "webpack",
