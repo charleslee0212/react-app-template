@@ -26,13 +26,16 @@ module.exports = {
       },
     ],
   },
+  resolve: {
+    extensions: [".js", ".jsx"],
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "public", "index.html"),
     }),
   ],
   devServer: {
-    static: path.join(__dirname, "public"),
+    static: path.join(__dirname, "dist"),
     port: 9000,
   },
 };
