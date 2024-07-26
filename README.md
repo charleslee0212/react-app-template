@@ -9,7 +9,7 @@ npm init
 
 ### Install webpack
 ```
-npm i --save-dev webpack-cli webpack
+npm i --save-dev webpack-cli webpack webpack-dev-server
 ```
 
 ### Install loaders
